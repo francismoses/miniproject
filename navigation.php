@@ -35,10 +35,14 @@ li a:hover {
 
  
 <h1><marquee>R.M.K ENGINEERING COLLEGE</marquee></h1>
-
+<?php
+{
+$regno = $_SESSION['login_user'];
+}
+?>
 <ul>
-  <li><a href="navigation.html">Home</a></li>
-  <li><a href=profile.php>Profile</a></li>  
+  <li><a href="navigation.php">Home</a></li>
+  <li><a href="studentprofile.php">Profile</a></li>  
 <li><a href="#news">Update password</a></li>
   <li><a href="#exam marks">internalmarks</a><li>
   <li><a href="#news">result</a></li>
